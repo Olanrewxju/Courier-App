@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace, unused_import
 
 import 'package:courier_app_ui/widgets/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
@@ -234,7 +234,7 @@ class _HomescreenState extends State<Homescreen> {
           }))
         ],
       ),
-      bottomNavigationBar: const MyBottomNavBar(),
+      
     );
   }
 }
